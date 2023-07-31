@@ -1,5 +1,6 @@
+.gitignore
 node_modules/
-server.js
+server.jsgit 
 Website.code-workspace
 package-lock.json
 package.json

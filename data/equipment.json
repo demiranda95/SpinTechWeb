@@ -1,0 +1,852 @@
+{
+	"equipment": [
+		{
+			"id": 1,
+			"tabTitle": "LHD",
+			"title": "Load Haul Dump",
+			"categoryId": "underground",
+			"category": "Minería Subterránea",
+			"img": "../assets/img/equipment/lhd.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos están diseñados para un transporte de mineral en condiciones heavy duty. Utilizamos componentes ampliamente reconocidos en el mercado (motores Cummins/CAT, transmisiones y ejes DANA)."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Modelos",
+								"value": ["<b>DDCT</b> (Diesel)", "<b>DECT</b> (Eléctrico)", "<b>DHCT</b> (Híbrido)"]
+							},
+							{
+								"name": "Aplicación",
+								"value": "Acarreo y transporte de material al interior de la mina"
+							},
+							{
+								"name": "Capacidades",
+								"value": "1 yrd3 a 7 yrd3"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": [
+						{
+							"header": "Image 1",
+							"text": "Description of Image 1...",
+							"url": "",
+							"img": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"tabTitle": "JUMBOS",
+			"title": "Jumbo Drills",
+			"categoryId": "underground",
+			"category": "Minería Subterránea",
+			"img": "../assets/img/equipment/jumbo.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Contamos con un vehículo que se adapta a una variedad de aplicaciones y debido a su tamaño óptimo y ligero, puede operar en espacios confinados o zonas muy estrechas. Utilizamos componentes ampliamente reconocidos en el mercado (motores Cummins/CAT, transmisiones y ejes DANA, perforadoras MONTABERT)."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Modelos",
+								"value": ["<b>JP</b> (Avance)", "<b>JR</b> (Radial)", "<b>JE</b> (Empernador)", "<b>JS</b> (Reducción Secundaria)"]
+							},
+							{
+								"name": "Aplicación",
+								"value": "Perforación y soporte estructural de galerías y túneles interiores"
+							},
+							{
+								"name": "Cantidad de Brazos",
+								"value": "De 1 a 3+1"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 3,
+			"tabTitle": "UTILITARIOS",
+			"title": "Utilitarios",
+			"categoryId": "underground",
+			"category": "Minería Subterránea",
+			"img": "../assets/img/equipment/utility.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Modelos",
+								"value": ["<b>UT</b> (Plataforma Tipo Tijera)", "<b>UP</b> (Transporte de Personal)", "<b>UG</b> (Plataforma con Grúa)", "<b>UL</b> (Camión Lubricador/Combustible", "Otros"]
+							},
+							{
+								"name": "Aplicación",
+								"value": "Soporte operacional y mantenimiento de faenas y operaciones al interior de la mina."
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 4,
+			"tabTitle": "CHANCADOR MANDÍBULAS",
+			"title": "Chancador de Mandíbulas JC",
+			"categoryId": "processing",
+			"category": "Chancado y Trituración",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Aplicación",
+								"value": "Trituración Primaria"
+							},
+							{
+								"name": "Rangos",
+								"value": "Desde 400 x 600 mm hasta 1200 x 1600 mm"
+							},
+							{
+								"name": "Capacidades",
+								"value": "16 hasta 1.600 t/h"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 5,
+			"tabTitle": "CHANCADOR CONO",
+			"title": "Chancador de Cono CC",
+			"categoryId": "processing",
+			"category": "Chancado y Trituración",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Modelos",
+								"value": ["<b>CC-300</b> (3')", "<b>CC-425</b> (4 1/4')", "<b>CC-550</b> (5 1/2')", "<b>CC-700</b> (7')"]
+							},
+							{
+								"name": "Aplicación",
+								"value": "Trituración Secundaria (CCS) o Terciaria (CCH)"
+							},
+							{
+								"name": "Capacidades",
+								"value": "16 hasta 2.000 t/h"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 6,
+			"tabTitle": "CHANCADOR IMPACTO VERTICAL",
+			"title": "Chancador de Impacto Vertical VC",
+			"categoryId": "processing",
+			"category": "Chancado y Trituración",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Aplicación",
+								"value": "Trituración Terciaria / Cuaternaria"
+							},
+							{
+								"name": "Tipos",
+								"value": "Rock on Rock (VCR)  Rock on Steel (VCS)"
+							},
+							{
+								"name": "Capacidades",
+								"value": "24 hasta 715 t/h"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 7,
+			"tabTitle": "CHANCADOR IMPACTO HORIZONTAL",
+			"title": "Chancador de Impacto Horizontal HC",
+			"categoryId": "processing",
+			"category": "Chancado y Trituración",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Aplicación",
+								"value": "Trituración Terciaria / Cuaternaria"
+							},
+							{
+								"name": "Rangos",
+								"value": "400 x 730 mm hasta 830 x 2040 mm"
+							},
+							{
+								"name": "Capacidades",
+								"value": "30 hasta 550 t/h"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 8,
+			"tabTitle": "MOLINO DE BOLAS",
+			"title": "Molino de Bolas",
+			"categoryId": "processing",
+			"category": "Molienda",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Modelos",
+								"value": "Ø 1,5 m x 3 m Largo hasta Ø 6 m x 9 m Largo"
+							},
+							{
+								"name": "Aplicación",
+								"value": "Trituración Primaria, Molienda y Remolienda"
+							},
+							{
+								"name": "Capacidades",
+								"value": "Desde 90 kW hasta 7.000 kW"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 9,
+			"tabTitle": "MOLINO DE BOLAS VERTICAL",
+			"title": "Molino de Bolas Vertical",
+			"categoryId": "processing",
+			"category": "Molienda",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": []
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 10,
+			"tabTitle": "CELDAS FLOTACIÓN",
+			"title": "Celdas de Flotación",
+			"categoryId": "processing",
+			"category": "Flotación",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Tipos de Celdas",
+								"value": "CAA, CAF, CAO"
+							},
+							{
+								"name": "Aplicación",
+								"value": "Separación físico-química de minerales de interés"
+							},
+							{
+								"name": "Capacidades",
+								"value": "Desde 0,13 m³/min hasta 100 m³/min"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 11,
+			"tabTitle": "SOPLADORES",
+			"title": "Sopladores de Aireación Forzada",
+			"categoryId": "processing",
+			"category": "Flotación",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Tipos",
+								"value": "Lobular"
+							},
+							{
+								"name": "Aplicación",
+								"value": "Dosificación de aire para proceso de flotación"
+							},
+							{
+								"name": "Capacidades",
+								"value": "Desde 0,53 m³/min hasta 90 m³/min"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 11,
+			"tabTitle": "AGITADORES",
+			"title": "Agitadores",
+			"categoryId": "processing",
+			"category": "Agitación",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Tipos de Agitadores",
+								"value": ["Aspas simples", "Aspas dobles", "Aspas tipo turbina", "Aspas rectas", "otras según requerimientos"]
+							},
+							{
+								"name": "Aplicación",
+								"value": "Homogenización de pulpas minerales, lixiviación y/o cianuración de minerales, acondicionar soluciones con reactivos, entre otros"
+							},
+							{
+								"name": "Tamaños",
+								"value": "Desde 1 m³ hasta 2.500 m³"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 12,
+			"tabTitle": "ESPESADORES",
+			"title": "Espesadores",
+			"categoryId": "processing",
+			"category": "Espesamiento",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Tipos",
+								"value": ["Convencionales", "High-Rate", "High-Density", "Pasta"]
+							},
+							{
+								"name": "Aplicación",
+								"value": "Separación sólido-líquido vía sedimentación natural o forzada químicamente"
+							},
+							{
+								"name": "Tamaños",
+								"value": "Ø 1,8 m hasta Ø 100 m"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 13,
+			"tabTitle": "FILTRO PRENSA",
+			"title": "Filtro Prensa",
+			"categoryId": "processing",
+			"category": "Filtrado",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Aplicación",
+								"value": "Filtrado de concentrados de mineral, secado de relaves para disposición final segura, recuperación de aguas de proceso, evitando la necesidad de impulsar aguas desde tranques de relave"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		},
+		{
+			"id": 14,
+			"tabTitle": "FILTRO CERÁMICO",
+			"title": "Filtro Cerámico",
+			"categoryId": "processing",
+			"category": "Filtrado",
+			"img": "../assets/img/equipment/bmp.png",
+			"tabs": [
+				{
+					"id": 1,
+					"type": "text",
+					"title": "Descripción",
+					"anchor": "description",
+					"content": "Nuestros equipos utilitarios con una orientación específica a las necesidades de cada fase, están diseñados para operar en todo tipo de galerías dado su chasis articulado."
+				},
+				{
+					"id": 2,
+					"type": "table",
+					"title": "Información Técnica",
+					"anchor": "specs",
+					"content": {
+						"table": [
+							{
+								"name": "Aplicación",
+								"value": "Filtrado de concentrados de mineral, secado de relaves para disposición final segura, recuperación de aguas de proceso, evitando la necesidad de impulsar aguas desde tranques de relave"
+							},
+							{
+								"name": "Tamaños",
+								"value": "Hasta 150 m² de Área Filtrante"
+							}
+						]
+					}
+				},
+				{
+					"id": 3,
+					"type": "documents",
+					"title": "Documentos",
+					"anchor": "documents",
+					"content": [
+						{
+							"header": "Catalogo",
+							"url": "../pages/catalog.html"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"type": "gallery",
+					"title": "Imágenes",
+					"anchor": "images",
+					"content": []
+				}
+			]
+		}
+	]
+}
