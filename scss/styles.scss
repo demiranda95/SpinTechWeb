@@ -625,7 +625,7 @@ $animationSpeed: 60s;
 		text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
 	}
 	h5 {
-		color: var(--dark-color)
+		color: var(--dark-color);
 	}
 }
 
@@ -662,6 +662,102 @@ $animationSpeed: 60s;
 .catalog {
 	height: 80vh;
 	width: 100%;
+}
+
+/* Contact */
+.addresses {
+	h2 {
+		margin-bottom: 2rem;
+		font-weight: bold;
+	}
+	ul {
+		width: 100%;
+		list-style: none;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		li {
+			margin-bottom: 1rem;
+			padding: 0 0.5rem;
+			i {
+				padding-right: 1rem;
+			}
+			a {
+				text-decoration: none;
+				color: var(--dark-color);
+			}
+			&:hover {
+				i,
+				a {
+					color: var(--primary-color);
+				}
+			}
+		}
+	}
+	.address {
+		padding: 0 1rem;
+		background-color: var(--light-color);
+		border-radius: 20px;
+		margin-bottom: 2rem;
+		padding: 10px;
+		box-shadow: 10px 10px 25px -5px rgba(0, 0, 0, 0.5);
+		h3 {
+			text-align: center;
+			font-size: 1.4rem;
+			margin-bottom: 0.5rem;
+		}
+		.list {
+			display: flex;
+			i {
+				padding-right: 1rem;
+			}
+			a {
+				text-decoration: none;
+				color: var(--dark-color);
+			}
+			&:hover {
+				i,
+				a {
+					color: var(--primary-color);
+				}
+			}
+		}
+	}
+}
+
+.contact {
+	background-color: var(--primary-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h2 {
+		margin-bottom: 2rem;
+		font-weight: bold;
+	}
+	form {
+		.col {
+			margin-bottom: 1rem;
+			label {
+				font-weight: bold;
+			}
+			input,
+			select,
+			textarea {
+				box-shadow: 10px 10px 25px -5px rgba(0, 0, 0, 0.5);
+			}
+		}
+		button {
+			background-color: var(--light-color);
+			color: var(--dark-color);
+			border: none;
+			box-shadow: 10px 10px 25px -5px rgba(0, 0, 0, 0.5);
+			&:hover {
+				background-color: var(--dark-color);
+				color: var(--light-color);
+			}
+		}
+	}
 }
 
 /* footer */
