@@ -8,7 +8,7 @@
                 <a href="https://www.linkedin.com/in/spintechnologies/"><i class="fab fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/bmpminerals/"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.youtube.com/@spintechnologies"><i class="fab fa-youtube"></i></a>
-                <a href="catalog.html"><i class="fa-solid fa-book-open"></i></a>
+                <a href="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>pages/catalog.php"><i class="fa-solid fa-book-open"></i></a>
             </div>
         </div>
         <div class="footer-column">
