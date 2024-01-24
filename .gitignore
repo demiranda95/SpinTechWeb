@@ -4,3 +4,4 @@ server.jsgit
 Website.code-workspace
 package-lock.json
 package.json
+db/
