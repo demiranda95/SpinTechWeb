@@ -1,60 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png" />
-		<link rel="manifest" href="../assets/favicon/site.webmanifest" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-		<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="../css/styles.css" />
-		<title>Experiencia | Grupo Spin Technologies</title>
-	</head>
-	<body>
-		<header>
-			<div class="navContainer">
-				<nav class="navbar navbar-expand-lg">
-					<div class="container-fluid">
-						<a class="navbar-brand" href="../index.html">
-							<img src="../assets/img/logos/Grupo SpinTechnologies White.png" alt="Logo" width="30" height="24" />
-						</a>
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarNav">
-							<ul class="navbar-nav txt-white">
-								<li class="nav-item">
-									<a class="nav-link" href="../index.html">Inicio</a>
-								</li>
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Acerca </a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="about.html">¿Quienes somos?</a></li>
-										<li><a class="dropdown-item active" href="experience.html">Experiencia</a></li>
-									</ul>
-								</li>
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Equipos </a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="underground.html">Minería Subterránea</a></li>
-										<li><a class="dropdown-item" href="processing.html">Procesamiento Mineral</a></li>
-										<!-- <li><a class="dropdown-item" href="#">Sistemas Autónomos</a></li> -->
-										<li><hr class="dropdown-divider" /></li>
-										<li><a class="dropdown-item" href="catalog.html">Catalogo</a></li>
-									</ul>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="contact.html">Contacto</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-			</div>
-		</header>
+<?php
+
+$pageTitle = 'Acerca';
+
+include '../include/head.php';
+
+?>
+
+<body>
+	<?php include '../include/header.php'; ?>
 		<main>
 			<div class="section-banner">
 				<img src="../assets/img/filter1.jpg" alt="Banner Principal" />
@@ -78,7 +31,7 @@
 											</div>
 											<div class="col">
 												<h3>INICIO DE OPERACIONES</h3>
-												<p>SPIN TECHNOLOGIES SERVICIOS DE INGENIERIA LIMITADA</p>
+												<p>SPIN TECHNOLOGIES SERVICIOS DE INGENIERÍA LIMITADA</p>
 											</div>
 										</div>
 									</div>
@@ -139,7 +92,7 @@
 												<img src="../assets/img/clients/ag.png" alt="Logo" />
 											</div>
 											<h3>EPC PLANTA LIXIVIACIÓN POR AGITACIÓN (CN-) DE 45.000 t/m DE MINERALES DE Au/Ag</h3>
-											<p>GUANACO COMPAÑIA MINERA - AUSTRAL GOLD</p>
+											<p>GUANACO COMPAÑÍA MINERA - AUSTRAL GOLD</p>
 											<div class="project">
 												<p>Suministro Molino de Bolas 12’ x 20’</p>
 												<p>Suministro Molino de Bolas 6’ x 10’</p>
@@ -174,7 +127,7 @@
 											<div class="logo">
 												<img src="../assets/img/clients/ena.png" alt="Logo" />
 											</div>
-											<h3>SUMINISTRO, ASISTENCIA TECNICA, MONTAJE Y PEM</h3>
+											<h3>SUMINISTRO, ASISTENCIA TÉCNICA, MONTAJE Y PEM</h3>
 											<p>ENAMI FUNDICIÓN HERNÁN VIDEL LIRA - PLANTA MATTA</p>
 											<div class="project">
 												<p>Suministro Molino de Bolas 12’ x 20’</p>
@@ -249,7 +202,7 @@
 												<img src="../assets/img/clients/cmsg.png" alt="Logo" />
 											</div>
 											<h3>SUMINISTRO FILTRO CERÁMICO</h3>
-											<p>COMPAÑIA MINERA SAN GERÓNIMO</p>
+											<p>COMPAÑÍA MINERA SAN GERÓNIMO</p>
 											<div class="project">
 												<p>Suministro Molino de Bolas 12’ x 20’</p>
 												<p>Suministro Molino de Bolas 6’ x 10’</p>
@@ -340,7 +293,7 @@
 											<div class="logo">
 												<img src="../assets/img/clients/clco.png" alt="Logo" />
 											</div>
-											<h3>SUMINISTRO CILINDROS HIDRAULICOS</h3>
+											<h3>SUMINISTRO CILINDROS HIDRÁULICOS</h3>
 											<p>CODELCO - DIVISIÓN CHUQUICAMATA</p>
 											<div class="project">
 												<p>Suministro Molino de Bolas 12’ x 20’</p>
@@ -363,9 +316,10 @@
 					<img src="../assets/img/logos/Grupo SpinTechnologies White.png" alt="Logo de la empresa" />
 					<p>¡Gracias por visitarnos!</p>
 					<div class="social-icons">
-						<a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
-						<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-						<a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+						<a href="https://www.linkedin.com/in/spintechnologies/"><i class="fab fa-linkedin"></i></a>
+						<a href="https://www.instagram.com/bmpminerals/"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.youtube.com/@spintechnologies"><i class="fab fa-youtube"></i></a>
+						<a href="catalog.html"><i class="fa-solid fa-book-open"></i></a>
 					</div>
 				</div>
 				<div class="footer-column">
