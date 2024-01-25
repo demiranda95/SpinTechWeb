@@ -2,7 +2,7 @@
     <div class="navContainer">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
+                <a class="navbar-brand" href="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>index.php">
                     <img src="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>assets/img/logos/Grupo SpinTechnologies White.png"
                         alt="Logo" width="30" height="24" />
                 </a>

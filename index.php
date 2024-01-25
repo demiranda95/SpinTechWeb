@@ -1,9 +1,6 @@
 <?php
-
 $pageTitle = 'Inicio';
-
 include 'include/head.php';
-
 ?>
 
 <body>

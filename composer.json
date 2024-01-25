@@ -1,0 +1,20 @@
+{
+	"name": "demir/spin-web",
+	"description": "Spin Technologies Website",
+	"autoload": {
+		"psr-4": {
+			"Demir\\SpinWeb\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "NALAW - Diego Miranda",
+			"email": "demiranda@nalaw.cl"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"tecnickcom/tcpdf": "^6.4"
+	}
+}
