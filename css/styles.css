@@ -20,10 +20,11 @@
 .navContainer {
   background-color: var(--black);
   border-bottom: var(--primary-color) 1px solid;
+  height: 100%;
 }
 .navContainer .navbar-brand {
   color: var(--white);
-  width: 200px;
+  width: 300px;
   margin: 0;
   padding: 0;
 }
@@ -602,7 +603,7 @@
 }
 
 .catalog {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
 }
 

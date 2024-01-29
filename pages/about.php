@@ -60,7 +60,7 @@ include '../include/head.php';
 			</div>
 		</div>
 	</main>
-	<?php include 'include/footer.php'; ?>
+	<?php include '../include/footer.php'; ?>
 </body>
 
 </html>

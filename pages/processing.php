@@ -25,7 +25,7 @@ include '../include/head.php';
 						</form>
 					</div>
 				</div>
-				<!-- <div class="col-3">
+				<div class="col-3">
 						<div class="row">
 							<div class="col-12">
 								<ul id="displayEquipmentTab" class="list-group list-group-flush"></ul>
@@ -35,7 +35,7 @@ include '../include/head.php';
 					<div class="col-9">
 						<div id="displayEquipment" class="row"></div>
 						<div id="displaySearchedEquipment" class="row"></div>
-					</div> -->
+					</div>
 			</div>
 		</div>
 	</main>

@@ -24,15 +24,15 @@ include '../include/head.php';
 							<ul>
 								<li>
 									<i class="fa-solid fa-phone"></i>
-									<a href="#">+56 2 2248 7396</a>
+									<a href="tel:+56 2 2248 7396">+56 2 2248 7396</a>
 								</li>
 								<li>
 									<i class="fa-solid fa-phone"></i>
-									<a href="#">+56 2 2248 7734</a>
+									<a href="tel:+56 2 2248 7734">+56 2 2248 7734</a>
 								</li>
 								<li>
 									<i class="fa-solid fa-envelope"></i>
-									<a href="#">info@spintecnologies.cl</a>
+									<a href="mailto:info@spintecnologies.cl">info@spintecnologies.cl</a>
 								</li>
 							</ul>
 						</div>
@@ -43,21 +43,22 @@ include '../include/head.php';
 								<h3>Casa Matriz</h3>
 								<div class="list">
 									<i class="fa-solid fa-location-dot"></i>
-									<a href="#">Av. Kennedy 5146, Vitacura</a>
+									<a href="https://maps.app.goo.gl/Wt33rxpdte4Eawo29" target="_blank">Av. Kennedy 5146, Vitacura</a>
 								</div>
 							</div>
 							<div class="address">
 								<h3>Bodega San Bernardo</h3>
 								<div class="list">
 									<i class="fa-solid fa-location-dot"></i>
-									<a href="#">Las Acacias Parcela 20, San Bernardo</a>
+									<a href="https://maps.app.goo.gl/QbJk8j1KmWcwH5Sw6" target="_blank">Las Acacias Parcela 20, San
+										Bernardo</a>
 								</div>
 							</div>
 							<div class="address">
 								<h3>Bodega Quilicura</h3>
 								<div class="list">
 									<i class="fa-solid fa-location-dot"></i>
-									<a href="#">Cerro Los Cóndores 9951, Quilicura</a>
+									<a href="https://maps.app.goo.gl/nq1pSedsj5M2sTUM8" target="_blank">Cerro Los Cóndores 9951, Quilicura</a>
 								</div>
 							</div>
 						</div>
@@ -66,21 +67,23 @@ include '../include/head.php';
 								<h3>Argentina</h3>
 								<div class="list">
 									<i class="fa-solid fa-location-dot"></i>
-									<a href="#">Av. Juramento 3170, Buenos Aires</a>
+									<a href="https://maps.app.goo.gl/8CwhQHJF4XrwdPHH9" target="_blank">Av. Juramento 3170, Buenos
+										Aires</a>
 								</div>
 							</div>
 							<div class="address">
 								<h3>Perú</h3>
 								<div class="list">
 									<i class="fa-solid fa-location-dot"></i>
-									<a href="#">San Antonio 720, Lima</a>
+									<a href="https://maps.app.goo.gl/NXTiWv7vzz7rN8G87" target="_blank">San Antonio 720, Lima</a>
 								</div>
 							</div>
 							<div class="address">
 								<h3>China</h3>
 								<div class="list">
 									<i class="fa-solid fa-location-dot"></i>
-									<a href="#">Tiexi district, Shenyang, Liaoning</a>
+									<a href="https://maps.app.goo.gl/iVYih6HcdYQxQiJP8" target="_blank">Tiexi district, Shenyang,
+										Liaoning</a>
 								</div>
 							</div>
 						</div>
@@ -103,7 +106,7 @@ include '../include/head.php';
 										</a>
 									</div>
 									<div class="circle">
-										<a href="catalog.html" class="icon-link">
+										<a href="../actions/view.php" class="icon-link">
 											<i class="fa-solid fa-book-open"></i>
 										</a>
 									</div>
@@ -176,7 +179,7 @@ include '../include/head.php';
 			</div>
 		</div>
 	</main>
-	<?php include 'include/footer.php'; ?>
+	<?php include '../include/footer.php'; ?>
 </body>
 
 </html>

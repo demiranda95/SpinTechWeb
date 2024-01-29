@@ -8,7 +8,7 @@
                 <a href="https://www.linkedin.com/in/spintechnologies/"><i class="fab fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/bmpminerals/"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.youtube.com/@spintechnologies"><i class="fab fa-youtube"></i></a>
-                <a href="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>pages/catalog.php"><i
+                <a href="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>actions/view.php" target="_blank"><i
                         class="fa-solid fa-book-open"></i></a>
             </div>
         </div>
@@ -16,17 +16,17 @@
             <h3>Enlaces útiles</h3>
             <ul>
                 <li><a href="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>index.php">Inicio</a></li>
-                <li><a href="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>pages/catalog.php">Catalogo</a></li>
+                <li><a href="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>actions/view.php">Catalogo</a></li>
                 <li><a href="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>pages/contact.php"">Contacto</a></li>
             </ul>
         </div>
         <div class=" footer-column">
                         <h3>Contacto</h3>
                         <ul>
-                            <li><i class="fa-solid fa-phone"></i><a href="#">+56 2 2248 7396</a></li>
-                            <li><i class="fa-solid fa-phone"></i><a href="#">+56 2 2248 7734</a></li>
-                            <li><i class="fa-solid fa-envelope"></i><a href="#">info@spintecnologies.cl</a></li>
-                            <li><i class="fa-solid fa-envelope"></i><a href="#">contacto@spintecnologies.cl</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:+56 2 2248 7396">+56 2 2248 7396</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:+56 2 2248 7734">+56 2 2248 7734</a></li>
+                            <li><i class="fa-solid fa-envelope"></i><a href="mailto:info@spintecnologies.cl">info@spintecnologies.cl</a></li>
+                            <!-- <li><i class="fa-solid fa-envelope"></i><a href="mailto:contacto@spintecnologies.cl">contacto@spintecnologies.cl</a></li> -->
                         </ul>
         </div>
         <div class="footer-column">
@@ -62,5 +62,6 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <!-- Own Scripts -->
+<script src="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>js/counter.js"></script>
 <script src="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>js/slides.js"></script>
 <script src="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>js/main.js"></script>

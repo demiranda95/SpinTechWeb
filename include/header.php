@@ -41,7 +41,7 @@
                                 </li>
                                 <hr class="dropdown-divider" />
                                 <li><a class="dropdown-item"
-                                        href="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>pages/catalog.php">Catalogo</a>
+                                        href="<?php echo ($pageTitle !== 'Inicio') ? '../' : '' ?>actions/view.php">Catalogo</a>
                                 </li>
                             </ul>
                         </li>

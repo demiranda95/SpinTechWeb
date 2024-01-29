@@ -106,7 +106,7 @@ include 'include/head.php';
 						<p class="counter-title">Repuestos</p>
 					</div>
 					<div class="col">
-						<p id="c-04" class="counter-number">35</p>
+						<p id="c-04" class="counter-number">49</p>
 						<p class="counter-title">Clientes</p>
 					</div>
 				</div>
